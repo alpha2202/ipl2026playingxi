@@ -391,6 +391,23 @@ this.appendChild(dragged);
 
 });
 
+/* ALLOW RETURN TO PLAYER POOL */
+
+const pool = document.getElementById("playersContainer");
+
+pool.addEventListener("dragover", function(e){
+e.preventDefault();
+});
+
+pool.addEventListener("drop", function(e){
+e.preventDefault();
+
+if(dragged){
+pool.appendChild(dragged);
+}
+
+});
+
 /* SCROLL */
 
 const scrollContainer=document.getElementById("playersContainer");
