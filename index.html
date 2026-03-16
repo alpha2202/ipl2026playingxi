@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Playing XI Creator</title>
+
+<link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+
+<div class="canvas" id="canvas">
+
+<!-- TEAM SELECTOR CLICK AREA -->
+
+<div id="teamButton"></div>
+
+
+<!-- PLAYING XI -->
+
+<div class="drop-slot" style="left:604px; top:64px;"></div>
+<div class="drop-slot" style="left:948px; top:64px;"></div>
+<div class="drop-slot" style="left:1287px; top:64px;"></div>
+<div class="drop-slot" style="left:1631px; top:64px;"></div>
+
+<div class="drop-slot" style="left:604px; top:210px;"></div>
+<div class="drop-slot" style="left:948px; top:210px;"></div>
+<div class="drop-slot" style="left:1287px; top:210px;"></div>
+<div class="drop-slot" style="left:1631px; top:210px;"></div>
+
+<div class="drop-slot" style="left:604px; top:356px;"></div>
+<div class="drop-slot" style="left:948px; top:356px;"></div>
+<div class="drop-slot" style="left:1287px; top:356px;"></div>
+
+
+<!-- IMPACT PLAYERS -->
+
+<div class="drop-slot" style="left:608px; top:616px;"></div>
+<div class="drop-slot" style="left:856px; top:616px;"></div>
+<div class="drop-slot" style="left:1104px; top:616px;"></div>
+<div class="drop-slot" style="left:1352px; top:616px;"></div>
+<div class="drop-slot" style="left:1600px; top:616px;"></div>
+
+
+<!-- PLAYER POOL -->
+
+<div class="player-pool">
+
+<div class="fade-left"></div>
+
+<button class="scroll-btn left" id="scrollLeft">◀</button>
+
+<div class="players-container" id="playersContainer"></div>
+
+<button class="scroll-btn right" id="scrollRight">▶</button>
+
+<div class="fade-right"></div>
+
+</div>
+
+</div>
+
+
+<!-- TEAM POPUP -->
+
+<div id="teamPopup">
+
+<div class="team-grid">
+
+<button data-team="srh">SRH</button>
+<button data-team="csk">CSK</button>
+<button data-team="mi">MI</button>
+<button data-team="rcb">RCB</button>
+<button data-team="kkr">KKR</button>
+<button data-team="gt">GT</button>
+<button data-team="dc">DC</button>
+<button data-team="pbks">PBKS</button>
+<button data-team="rr">RR</button>
+<button data-team="lsg">LSG</button>
+
+</div>
+
+</div>
+
+<script src="script.js"></script>
+
+</body>
+</html>
